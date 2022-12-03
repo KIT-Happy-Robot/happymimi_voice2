@@ -59,7 +59,7 @@ fuzzy==1.2.2
 spacy==3.1.4
 ```
 
-## How to build enviroment（環境を構築する方法）
+~~## How to build enviroment（環境を構築する方法）
 How to the installation of python, pip, etc. is omitted.
 It's partly described in esa and if you want to know, please check it.
 
@@ -68,12 +68,15 @@ esaに一部記載されていますので、知りたい方はチェックし�
 
 https://kithappyrobot.esa.io/posts/166
 
-I recommend using a virtual environment(venv)
+~~I recommend using a virtual environment(venv)
 
-（仮想環境（venv）の使用をお勧めします）
+~~（仮想環境（venv）の使用をお勧めします）~~
 
-### install pyhton3.8（Python3.8のインストール）
-python3.8で作成されているものがあるため、以降のバージョンでしか動かない場合がある。
+~~### install pyhton3.8（Python3.8のインストール）
+python3.8で作成されているものがあるため、以降のバージョンでしか動かない場合がある。~~
+
+※Ubuntu20.04からPython3.8が標準となったため、仮想環境が必須ではなくなりました。
+
 ```
 sudo apt install python3.8
 sudo apt install python3.8-dev
