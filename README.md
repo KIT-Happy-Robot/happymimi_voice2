@@ -69,8 +69,7 @@ esaに一部記載されていますので、知りたい方はチェックし�
 https://kithappyrobot.esa.io/posts/166
 
 ~~I recommend using a virtual environment(venv)
-
-~~（仮想環境（venv）の使用をお勧めします）~~
+（仮想環境（venv）の使用をお勧めします）~~
 
 ~~### install pyhton3.8（Python3.8のインストール）
 python3.8で作成されているものがあるため、以降のバージョンでしか動かない場合がある。~~
