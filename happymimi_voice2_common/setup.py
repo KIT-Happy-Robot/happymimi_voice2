@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'voice_server'
+package_name = 'happymimi_voice2_common'
 
 setup(
     name=package_name,
@@ -20,13 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "stt = voice_server.stt_server:main",
-            "tts = voice_server.tts_srvserver:main",
-            "client_sa = voice_server.client_sample:main",
-            "client = voice_server.client_member_function:main",
-            "service = voice_server.service_member_function:main",
-            "a = voice_server.a:main",
-            "cli_tts = voice_server.client_tts:main"
+            "stt = happymimi_voice2_common.stt_server:main",
+            "tts = happymimi_voice2_common.tts_srvserver:main",
+            "cli_stt = happymimi_voice2_common.client_stt:main",
+            "cli_tts = happymimi_voice2_common.client_tts:main"
         ],
     },
 )

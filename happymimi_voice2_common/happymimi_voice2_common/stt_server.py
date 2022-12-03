@@ -8,7 +8,7 @@ import re
 import sys
 import rclpy
 from rclpy.node import Node
-from srvmsgs.srv import SpeechToText
+from happymimi_voice2_msgs.srv import SpeechToText
 #from srvmsgs.srv import SpeechToTextResponse
 #import actionlib
 from google.cloud import speech_v1p1beta1 as speech

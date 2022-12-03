@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import rclpy
-from srvmsgs.srv import TTS
+from happymimi_voice2_msgs.srv import TTS
 #from srvmsgs.srv import TTS
 from rclpy.node import Node
 
