@@ -8,7 +8,7 @@ import rclpy
 from rclpy.node import Node
 #from happymimi_voice_msgs.srv import TTS, TTSResponse
 #from happymimi_msgs.srv import StrTrg,StrTrgResponse
-from srvmsgs.srv import TTS
+from happymimi_voice2_msgs.srv import TTS
 from google.cloud import texttospeech
 
 import wave
